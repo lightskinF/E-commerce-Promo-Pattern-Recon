@@ -66,7 +66,7 @@ Observed behavior is consistent with:
 ### Case 2 – Product-Level Exclusion Inconsistency
 
 **Context**  
-A limited collaboration item (MM6 x Maison Margiela):
+A limited collaboration item (Salomon x MM6 Maison Margiela):
 - Frequently sold out
 - Promo codes explicitly excluded by most retailers
 
