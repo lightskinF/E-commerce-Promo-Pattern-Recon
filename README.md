@@ -53,7 +53,7 @@ the checkout accepted a standard welcome promo code.
 - FIRST10
 
 **Result**  
-The code `WELCOME10` was accepted and applied a discount.
+The code `NEW10` was accepted and applied a discount.
 
 **Interpretation**
 Observed behavior is consistent with:
@@ -66,12 +66,12 @@ Observed behavior is consistent with:
 ### Case 2 – Product-Level Exclusion Inconsistency
 
 **Context**  
-A limited collaboration item (Salomon x MM6 Maison Margiela):
+A limited collaboration item (MM6 x Maison Margiela):
 - Frequently sold out
 - Promo codes explicitly excluded by most retailers
 
 **Observation**  
-Across several retailers, the welcome promo code following the corresponding newsletter subscription was rejected.
+Across several retailers, the same welcome promo code was rejected.
 One retailer, however, accepted the code and applied a discount.
 
 **Interpretation**
@@ -82,10 +82,10 @@ Observed behavior is consistent with:
 
 ---
 
-### Case 3 – Regional Pricing Difference
+### Case 3 – Regional Pricing Difference (Farfetch)
 
 **Context**  
-The same product was viewed on a well known Global retailer:
+The same product was viewed on Farfetch:
 - From Italy (Italian language, local IP)
 - From France (French language, VPN-based IP)
 
@@ -106,12 +106,12 @@ but a market-specific pricing configuration.
 
 ## Platform Behavior Observations (Non-Deterministic)
 
-| Pattern and Observed Behavior |
-
-| Shopify (monolithic): Global promo rules may remain active |
-| Enterprise platforms: Strong SKU-level exclusions |
-| ESP-driven flows: Welcome codes active without explicit display |
-| Multi-region stores: Price differentiation by country |
+| Pattern | Observed Behavior |
+|------|------------------|
+| Shopify (monolithic) | Global promo rules may remain active |
+| Enterprise platforms | Strong SKU-level exclusions |
+| ESP-driven flows | Welcome codes active without explicit display |
+| Multi-region stores | Price differentiation by country |
 
 ---
 
