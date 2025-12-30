@@ -82,10 +82,10 @@ Observed behavior is consistent with:
 
 ---
 
-### Case 3 – Regional Pricing Difference (Farfetch)
+### Case 3 – Regional Pricing Difference (Global retailer)
 
 **Context**  
-The same product was viewed on Farfetch:
+The same product was viewed on a well-known Global retailer:
 - From Italy (Italian language, local IP)
 - From France (French language, VPN-based IP)
 
