@@ -53,7 +53,7 @@ the checkout accepted a standard welcome promo code.
 - FIRST10
 
 **Result**  
-The code `NEW10` was accepted and applied a discount.
+The code `WELCOME10` was accepted and applied a discount.
 
 **Interpretation**
 Observed behavior is consistent with:
